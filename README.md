@@ -70,16 +70,19 @@ models/indoBERT_best/
     special_tokens_map.json
     checkpoint-2390/
         config.json
-        model.safetensors
-        training_args.bin
-        ...
-## Kode training model dapat dilihat di:
 
-- `indoBERT_sentiment_training.ipynb`
+## Struktur Singkat Repository
 
-Notebook ini menunjukkan alur pelatihan IndoBERT pada dataset yang sama.
+- `app.py` – Aplikasi Streamlit untuk inference sentimen.
+- `inference.py` – Fungsi helper untuk load model/tokenizer dan prediksi.
+- `indoBERT_sentiment_training.ipynb` – Notebook training & evaluasi IndoBERT.
+- `test_model.py` – Tes cepat model via CLI.
+- `check_env.py` – Cek versi library di environment lokal.
+- `sample_input.csv` – Sample dataset kecil untuk verifikasi lokal.
+- `flowchart technical test.png` – Flowchart end-to-end pipeline.
 
 ## Setup & Cara Menjalankan
+
 1. **Buat dan aktifkan virtual environment**
    ```bash
    # Masuk ke folder project
