@@ -1,0 +1,32 @@
+# ==== Virtual environment ====
+.venv/
+venv/
+env/
+
+# ==== Python cache / build ====
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# ==== Editor / OS ====
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ==== Streamlit / cache ====
+.streamlit/
+.cache/
+logs/
+huggingface/
+
+# Ignore semua isi checkpoint-2390
+models/indoBERT_best/checkpoint-2390/*
+
+# KECUALI:
+!models/indoBERT_best/checkpoint-2390/config.json
+

@@ -1,0 +1,11 @@
+torch
+transformers==4.57.1
+peft==0.18.0
+
+streamlit
+pandas
+numpy
+scikit-learn
+seaborn
+matplotlib
+tqdm
